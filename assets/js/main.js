@@ -21,12 +21,12 @@ function somma() {
         offerta ='prezzo scontato del 40'
     }
     console.log (prezzo_finale);
-    prezzo_finale = prezzo_finale.toFixed(2);
+    // prezzo_finale = prezzo_finale.toFixed(2);
     document.getElementById('costo').innerHTML = prezzo_finale;
 
 
 
-    // document.getElementById('passeggero').innerHTML = nomeCognome;
+    document.getElementById('passeggero').innerHTML = nomeCognome;
     document.getElementById('offerta').innerHTML = offerta;
      document.getElementById('carrozza').innerHTML = Math.random(1).toFixed(2);
      document.getElementById('codice').innerHTML = Math.random(1).toFixed(2);
